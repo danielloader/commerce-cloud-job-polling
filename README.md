@@ -2,7 +2,7 @@
 
 ## tl;dr
 
-git clone
-poetry install
-uvicorn server.app:app --reload
-python client/app.py
+- git clone
+- poetry install
+- uvicorn server.app:app --reload
+- python client/app.py
