@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "job_runner"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Loader <spicypixel@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+fastapi = "^0.66.0"
+backoff = "^1.10.0"
+httpx = "^0.18.2"
+uvicorn = "^0.14.0"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^21.6b0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
